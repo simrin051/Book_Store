@@ -1,6 +1,7 @@
 :root {
     --primary-color: #9400d3;
     --secondary-color: #CBC3E3;
+    --alert-color: red;
 }
 
 .title {
@@ -24,7 +25,7 @@
 }
 
 .title-underline {
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid var(--alert-color);
 }
 
 .icon {
@@ -42,7 +43,7 @@ a .logo {
 
 nav {
     width: 100%;
-    background-color: var(--secondary-color) !important;
+    background-color: var(--secondary-color);
     position: sticky;
     top: 0;
     left: 0;
@@ -93,7 +94,7 @@ li a {
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 .fr {
