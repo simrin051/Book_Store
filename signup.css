@@ -1,3 +1,10 @@
+#MyModal {
+    --alert-color: red;
+    --alert-box-color: #ffe6ea;
+    --modal-secondary-color: white;
+    --black-color: black;
+}
+
 .modal-header {
     background-color: var(--primary-color)
 }
@@ -21,14 +28,14 @@ i {
 
 .Signup {
     display: block;
-    background-color: black;
+    background-color: var(--black-color);
     color: white;
-    outline: 1px solid black;
+    outline: 1px solid var(--black-color);
     margin-top: 10px;
 }
 
 .form-control:focus {
-    border-color: black;
+    border-color: var(--black-color);
     box-shadow: 13px 13px 0px 0px #ffffff;
 }
 
@@ -42,14 +49,14 @@ i {
 }
 
 .required-asterisk {
-    color: red;
+    color: var(--alert-color);
     font-weight: bold;
     margin-left: 3px;
     font-size: 1em;
 }
 
 .createAccount {
-    color: red;
+    color: var(--alert-color);
     display: none;
     width: 100%;
     height: 100%;
