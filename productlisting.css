@@ -50,10 +50,10 @@ button i {
 }
 
 .products-heading {
-    text-align: center;
     font-size: 30px;
     font-style: italic;
     color: var(--primary-color);
+    margin-left: 20%;
     margin-bottom: 10px;
 }
 
