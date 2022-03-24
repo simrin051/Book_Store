@@ -1,0 +1,89 @@
+#MyModal {
+    --alert-color: red;
+    --alert-box-color: #ffe6ea;
+    --modal-secondary-color: white;
+    --black-color: black;
+}
+
+.modal-title {
+    color: var(--modal-secondary-color);
+}
+
+.modal-header {
+    background-color: var(--primary-color)
+}
+
+.modal-body {
+    background-color: #fff;
+}
+
+i {
+    margin-right: 10px;
+    stroke: var(--modal-secondary-color);
+    stroke-width: 10;
+}
+
+.Login:hover {
+    background-color: var(--primary-color);
+    color: var(--modal-secondary-color);
+}
+
+.Login {
+    display: block;
+    background-color: var(--black-color);
+    color: var(--modal-secondary-color);
+
+    width: 310px;
+    outline: 1px solid var(--black-color);
+}
+
+.form-control:focus {
+    border-color: var(--black-color);
+    box-shadow: 13px 13px 0px 0px #ffffff;
+}
+
+.options {
+    font-size: small;
+}
+
+.authenticate {
+    display: flex;
+
+}
+
+.required-asterisk {
+    color: var(--alert-color);
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 1em;
+}
+
+.createAccount {
+    color: var(--alert-color);
+    display: none;
+}
+
+.alert {
+    border-color: var(--primary-color);
+    text-align: center;
+}
+
+.badcredentials {
+    background-color: var(--alert-box-color);
+    height: 5%;
+    width: 50%;
+    margin: auto;
+
+}
+
+.backLink {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .badcredentials {
+        background-color: var(--alert-box-color);
+        height: 5%;
+        width: 100%;
+    }
+}
