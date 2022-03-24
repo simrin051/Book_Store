@@ -76,8 +76,14 @@ i {
 
 }
 
-.backLink {
+.Link {
     text-decoration: none;
+}
+
+.signInLinks {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
 }
 
 @media only screen and (max-width: 600px) {
